@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    width: 100vw;
+}
+
+.content-wrapper {
+    padding: 2rem;
+}
+
+.omelette-image {
+    max-width: 100%;
+}
+
+.main-header {
+    margin-bottom: 2rem;
+}
+
+.main-header h1 {
+    font-size: 2.25rem;
+    font-family: 'Young Serif';
+    color: #312E2C;
+}
+
+.main-header-description {
+    font-family:'Outfit';
+    font-size: 1rem;
+    color:#5F564D;
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+.preparation-time {
+    background-color: #FFF7FB;
+    border-radius: 0.625rem;
+    border: solid 0.063rem;
+}
+
+.content-header {
+    padding: 1.5rem 1.5rem 1rem 0;
+    margin: 0 auto;
+    font-family: 'Young Serif';
+}
+
+.preparation-title {
+    color: #7A284E;
+    font-family: 'Outfit';
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-left: 1.5rem;
+}
+
+.preparation-item-list {
+    margin: 0 0 1rem 0;
+    padding-left: 3rem;
+}
+
+li {
+    font-family: 'Outfit';
+    font-size: 1rem;
+    color:#5F564D; 
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    line-height: 1.5rem;
+}
+
+.preparation-item-list li::marker {
+    color: #7A284E;
+    padding-left: 0.5rem;
+}
+
+.preparation-time-list-item span,
+.instructions-list-item span {
+    color: #5F564D;
+    font-weight: 600;
+}
+
+.header-title {
+    color: #854632;
+    padding-bottom: 1.5rem;
+}
+
+.ingredients-list li::marker,
+.instructions-list li::marker {
+    color: #854632;
+    padding-left: 0.5rem;
+    font-weight: 600;
+}
+
+.ingredients-list {
+    padding-left: 1.5rem;
+}
+
+.instructions-list {
+    list-style: decimal;
+    padding-left: 1.5rem;
+}
+
+.ingredients, .instructions,
+.table-frame {
+    border-bottom: 1px solid #E3DDD7;
+}
+
+.nutrition-table {
+    overflow: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-frame {
+    height: 3rem;
+}
+
+.table-frame:nth-child(4){
+    border-bottom: none;
+}
+
+
+.nutrition-description, 
+.nutrition-table-item-name {
+    color:#5F564D;
+}
+
+.nutrition-description,
+.nutrition-table-item-name,
+.nutrition-table-item-value {
+    font-family: 'Outfit';
+    font-size: 1rem;
+}
+
+.nutrition-description {
+    margin: 0;
+    line-height: 1.5rem;
+    padding: 0 .2rem 1.5rem .2rem;
+}
+
+.nutrition-table-item-name {
+    font-weight: 400;
+    padding-left: 2rem;
+    text-align: left;
+}
+
+.nutrition-table-item-value {
+    color: #854632;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+  }
+    
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+  }
+
+
+
+  @media only screen and (min-width: 64em) {
+    body {
+        background-color: #F3E5D7;
+    }
+
+    .main-wrapper {
+        background-color: #FFF;
+        border-radius: .625rem;
+        padding: 2.5rem;
+        margin: 7.688rem 22rem;
+    }
+
+    .content-wrapper {
+        padding: 0;
+    }
+
+    .header-title {
+        padding-top: 2rem;
+        padding-left: 0;
+    }
+
+    .omelette-image-container {
+        max-width: 100%;
+    }
+
+    .omelette-image {
+        border-radius: .625rem;
+        height: auto;
+    }
+
+    ul {
+        margin: 0;
+        padding-bottom: 1.75rem;
+    }
+
+    
+    .preparation-time {
+        border: none;
+    }
+
+    .instructions-list {
+        padding-bottom: 2rem;
+        padding-left: 1.5rem;
+    }
+
+    .ingredients-list {
+        padding-left: 1.5rem;
+    }
+
+
+    .nutrition-description {
+        padding: 0 0 1.5rem 0;
+    }
+
+    .nutrition-table-item-name {
+        padding-left: 2rem;
+        text-align: left;
+        width: 50%;
+    }
+
+    .nutrition-table-item-value {
+        padding-left: 1rem;
+    }
+
+
+
+}
